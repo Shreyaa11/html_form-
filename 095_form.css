@@ -1,0 +1,10 @@
+input{
+    background-color: yellow;
+    color: blue;
+}
+label{
+    padding:0 10px 0 10px;
+}
+form{
+    border: 2px solid black;
+}
