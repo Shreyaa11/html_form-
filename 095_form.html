@@ -9,13 +9,16 @@
 <body>
     <form action="">
         <label for="">full name:</label>
-        <input type="text" name="nm"> <br> <br>
+        <input type="text" name="nm" id="nm"> <span id="err">xxx</span> <br> <br>
+
 
         <label for="">email:</label>
-        <input type="email" name="email" id=""> <br> <br>
+        <input type="email" name="email" id="email"> <span id="errmail">xxx</span> <br> <br>
 
-        <input type="button" value="button" name="btn" id="">
+        <input onclick="btnClick()" type="button" value="button" name="btn" id="btn">
+        
 
     </form>
+    <script src="095_form.js"></script>
 </body>
 </html>
